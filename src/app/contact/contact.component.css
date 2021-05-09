@@ -1,0 +1,49 @@
+/* body {
+  background-color: whitesmoke;
+} */
+
+.address {
+  color: red;
+}
+.address:hover {
+  color: black;
+}
+
+.phone {
+  color: blue;
+}
+.phone:hover {
+  color: black;
+}
+
+.facebook a:hover {
+  color: black;
+}
+.facebook a {
+  color: blue;
+}
+
+.instagram a:hover {
+  color: black;
+}
+.instagram a {
+  color: rgb(233, 33, 96);
+}
+
+.email a {
+  color: #ea4335;
+}
+.email a:hover {
+  color: black;
+}
+
+.twitter a {
+  color: #1da1f2;
+}
+.twitter a:hover {
+  color: black;
+}
+
+.map {
+  text-align: center;
+}

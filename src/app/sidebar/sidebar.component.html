@@ -1,0 +1,38 @@
+
+    <div class="row">
+        <div class=" col-2 sidenav text-white bg-dark">
+          <ul class="nav nav-pills flex-column">
+              
+            <li>
+                <button type="button" class="btn btn-outline-primary btn-sm"><a [routerLink]="['/Home']"
+                class="nav-link text-white">HOME</a></button>
+                    
+            </li>
+               
+            <li><button type="button" class="btn btn-outline-primary btn-sm"><a [routerLink]="['/Gallery']"
+                        class="nav-link text-white">Gallery</a></button>
+            </li>
+
+            <li>
+                <button type="button" class="btn btn-outline-primary btn-sm"><a [routerLink]="['/Services']" 
+                class="nav-link text-white">Service</a></button>
+            </li>
+
+            <li><button type="button" class="btn btn-outline-primary btn-sm"><a [routerLink]="['/Fees']"
+                        class="nav-link text-white">Join Us</a></button>
+            </li>
+
+            <li><button type="button" class="btn btn-outline-primary btn-sm"><a [routerLink]="['/Contact']"
+                        class="nav-link text-white">Contact</a></button>
+            </li>
+
+            <li><button type="button" class="btn btn-outline-primary btn-sm"><a [routerLink]="['/About-Us']"
+                        class="nav-link text-white">AboutUs</a></button>
+            </li>
+        </ul>
+    </div>
+     <div class="col-10">
+        <router-outlet></router-outlet>
+     </div>
+  </div>
+

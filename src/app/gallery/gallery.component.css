@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+.a {
+  height: 150px;
+}
+
+.b {
+  margin: 5px;
+  height: 150px;
+}
+
+.c {
+  margin: 5px;
+  height: 150px;
+}
+
+.d {
+  margin: 5px;
+  height: 230px;
+}

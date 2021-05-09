@@ -1,0 +1,48 @@
+<body>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <div class="services">
+        <div class="heading">Services</div>
+        <div class="servicesContent">
+            <h1 style="text-align: right;">PUSH YOUR LIMITS FORWARD</h1>
+        </div><br><br>
+        <div class="col-10 offset-1">
+            <!-- Box 1 Start -->
+            <div class="servicesBox">
+                <div class="boxLeft col-2">PT</div>
+                <div class="boxCenter col-8">
+                    <a [routerLink]="['./Personal-Training']">Personal Training</a>
+                    <p>“If it doesn’t challenge you, it won’t change you.”</p>
+                </div>
+                <div class="boxRight col-2">
+                    <a [routerLink]="['./Personal-Training']"><i class="fa fa-angle-right" aria-hidden="false"></i></a>
+                </div>
+            </div><br>
+            <!-- Box 2 Start  -->
+            <div class="servicesBox">
+                <div class="boxLeft col-2">G.T.</div>
+                <div class="boxCenter col-8">
+                    <a [routerLink]="['./Group-Training']">Group Training</a>
+                    <p>“Too many of us are not living our dreams because we are living our fears.”</p>
+                </div>
+                <div class="boxRight col-2">
+                    <a [routerLink]="['./Group-Training']"><i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div><br>
+            <!-- Box 3 start -->
+            <div class="servicesBox">
+                <div class="boxLeft col-2">ST</div>
+                <div class="boxCenter col-8">
+                    <a [routerLink]="['./Strength']">Strength</a>
+                    <p>"Strength grows in the moment when you think you can’t go on, but you keep going anyway."</p>
+                </div>
+                <div class="boxRight col-2">
+                    <a [routerLink]="['./Strength']"><i class="fa fa-angle-right"></i></a>
+                </div>
+            </div><br>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</body>

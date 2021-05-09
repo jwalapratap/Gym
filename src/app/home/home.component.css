@@ -1,0 +1,13 @@
+body {
+  border: 3px solid red;
+  background-color: gray;
+}
+p {
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  border: 3px solid whitesmoke;
+  padding: 5px 5px;
+  background-color: black;
+  color: whitesmoke;
+}

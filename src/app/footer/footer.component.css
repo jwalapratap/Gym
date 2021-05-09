@@ -1,0 +1,60 @@
+body {
+  /* color: white; */
+
+  background-color: #010b14;
+  border: 5px solid #1976d2;
+  border-radius: 0.5em;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px 2px;
+}
+
+.social {
+  padding: 2px 40%;
+}
+a {
+  padding: 2px;
+}
+
+.facebook a:hover {
+  color: blue;
+}
+
+.twitter a:hover {
+  color: #1da1f2;
+}
+
+.linkedin a:hover {
+  color: #0077b5;
+}
+
+.instagram a:hover {
+  color: rgb(233, 33, 96);
+}
+
+.github a:hover {
+  color: gray;
+}
+
+.facebook a {
+  background-color: black;
+  color: white;
+  border: 50px;
+}
+
+.twitter a {
+  color: white;
+}
+
+.linkedin a {
+  color: white;
+}
+
+.instagram a {
+  color: white;
+}
+
+.github a {
+  color: white;
+}

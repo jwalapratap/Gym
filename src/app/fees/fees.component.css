@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+}
+h3 {
+  text-align: center;
+  margin: 5px;
+  color: orange;
+}
+
+h5 {
+  margin: 0px 0px 10px 0px;
+  color: orange;
+}
+
+h6 {
+  color: crimson;
+}
+
+.note {
+  margin: 20px;
+  color: white;
+  background-color: red;
+  border: 3px black dotted;
+  border-radius: 0.5em;
+}
